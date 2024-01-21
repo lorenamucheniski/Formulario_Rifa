@@ -45,6 +45,11 @@
             margin: .2em 0 .8em;
             border-bottom: 2px solid transparent;
             border-bottom: 2px solid wheat;
+            text-transform: uppercase;
+        }
+
+        label {
+            margin-bottom: .2em;
         }
 
         input:focus {
@@ -84,7 +89,7 @@
             <input type="tel" id="telefone" required maxlength="12" placeholder="43 996451259">
 
             <label for="numeros">Escolha um ou mais números</label>
-            <input type="number" id="numeros" placeholder="12, 25, 240" required>
+            <input type="text" id="numeros" placeholder="12, 25, 240" required>
 
             <label for="valor_pago">Valor pago</label>
             <input type="number" id="valor_pago" required placeholder="R$">
