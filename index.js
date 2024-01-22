@@ -31,7 +31,7 @@ function cadastrar() {
     
 }
 
-function ola() {
+function rifa() {
     const uris = 'http://localhost:8080/rifa'
     fetch(uris,
     {
@@ -54,5 +54,5 @@ function ola() {
 fomulario.addEventListener("submit", function(event){
     event.preventDefault();
     cadastrar();
-    ola()
+    rifa()
 })
