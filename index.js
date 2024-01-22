@@ -32,8 +32,8 @@ function cadastrar() {
 }
 
 function rifa() {
-    const uris = 'http://localhost:8080/rifa'
-    fetch(uris,
+
+    fetch('http://localhost:8080/rifa',
     {
         headers: {
             "Accept": "application/json",
