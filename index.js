@@ -51,8 +51,17 @@ function rifa() {
     )
 }
 
-fomulario.addEventListener("submit", function(event){
+function limparFormulário () {
+    iname.innerHTML = '';
+    telefone.innerHTML = '';
+    numero.innerHTML = '';
+    valorPago.innerHTML = '';
+
+}
+
+fomulario.addEventListener("button", function(event){
     event.preventDefault();
     cadastrar();
-    rifa()
+    rifa();
+    limparFormulário();
 })
